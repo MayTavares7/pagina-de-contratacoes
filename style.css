@@ -9,6 +9,13 @@ nav{
     flex-direction: row;
     padding:  20px;
 }
+#bntDiv{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding:  20px;
+}   
+
 
 .logo{
     display: flex;
