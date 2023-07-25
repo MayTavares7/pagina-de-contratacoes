@@ -26,15 +26,16 @@ nav{
 }
 
 .btnCadastrar{
-
     font-family: Roboto, sans-serif;
     font-weight: 0;
     font-size: 14px;
     color: #ffffff;
-    background-color: #0066CC;
+    background-color: #8E2424;
     padding: -1px 20px;
     border: none;
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    width: 112px;
+    height: 44px;
+    text-align: center;
     border-radius: 10px;
     transition : 0.3;
     transform: translateY(0);
@@ -47,8 +48,8 @@ nav{
     .btnCadastrar:hover{
     transition : 0.3;
     transform : translateY(-0px);
-    background-color: #fff;
-    color: #0066cc;
+    background-color: #949494;
+    color: #ffffff;
     border: none;
     }
 
@@ -57,11 +58,12 @@ nav{
         font-family: Roboto, sans-serif;
         font-weight: 0;
         font-size: 14px;
-        color: #ffffff;
+        color: #8E2424;
         background-color: #ffffff;
         padding: -1px 20px;
         border: none;
-        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        width: 112px;
+        height: 44px;
         border-radius: 10px;
         transition : 0.3;
         transform: translateY(0);
@@ -69,13 +71,14 @@ nav{
         flex-direction: row;
         align-items: center;
         cursor: pointer;
+        
         }
         
         .btnEntrar:hover{
         transition : 0.3;
         transform : translateY(-0px);
-        background-color: #8E2424;
-        color: #0066cc;
+        background-color: #949494;
+        color: #ffffff;
         border: none;
         }
 
@@ -85,3 +88,4 @@ nav{
         align-items: end;
         margin: 10px;
     }
+
