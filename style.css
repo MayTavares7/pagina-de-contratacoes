@@ -9,10 +9,11 @@ nav{
     flex-direction: row;
     padding:  20px;
 }
-#bntDiv{
+ 
+/* #bntDiv{
    justify-content: end;
    margin: 5px;
-}   
+}    */
 
 .logo{
     display: flex;
@@ -53,4 +54,11 @@ nav{
     background-color: #fff;
     color: #0066cc;
     border: none;
+    }
+
+    #bntDiv{
+        display: flex;
+        flex-direction: row;
+        align-items: end;
+        margin: 10px;
     }
