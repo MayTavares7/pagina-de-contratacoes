@@ -6,6 +6,7 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
+    background-color: #e2e2e2;
     flex-direction: row;
     padding:  20px;
 }
